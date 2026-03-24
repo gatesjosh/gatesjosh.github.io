@@ -11,6 +11,11 @@ description: >
 # Fetch the latest version directly from GitHub
 remote_theme: "jekyll/minima"
 
+# Required for remote themes to work on GitHub Pages
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
 minima:
   # Minima skin selection. Available skins are:
   #   Available skins:
@@ -32,7 +37,13 @@ minima:
   # Set to `true` to show excerpts on the homepage.
   show_excerpts: true
 
-# Required for remote themes to work on GitHub Pages
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
+  # Social Media Links
+  #   Renders icons via Font Awesome Free webfonts CDN, based on ordered list of entries.
+  #   Entry keys:
+  #     * title    Tooltip rendered on hovering over icon.
+  #     * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
+  #     * url      Full URL of social profile.
+  social_links:
+    - title: JG on LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/company/github"

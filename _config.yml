@@ -1,6 +1,7 @@
-title: JG | Online
+title: Your awesome title
 author:
-  name: JG
+  name: GitHub User
+  email: your-email@domain.com
 
 description: >
   My personal website after many years without one.
@@ -15,6 +16,10 @@ remote_theme: "jekyll/minima"
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
+
+sass:
+  quiet_deps: true
+  silence_deprecations: [import]
 
 minima:
   # Minima skin selection. Available skins are:
@@ -37,6 +42,11 @@ minima:
   # Set to `true` to show excerpts on the homepage.
   show_excerpts: true
 
+  # Minima date format.
+  #   The default value is "%b %d, %Y" (e.g. Nov 14, 2023).
+  #   Refer to https://shopify.github.io/liquid/filters/date/ for valid values.
+  # date_format: "%b-%d-%Y"
+
   # Social Media Links
   #   Renders icons via Font Awesome Free webfonts CDN, based on ordered list of entries.
   #   Entry keys:
@@ -47,9 +57,3 @@ minima:
     - title: JG on LinkedIn
       icon: linkedin
       url: "https://www.linkedin.com/company/github"
-
-#   Hide syndication feed subscription link.
-#     RSS / Atom feed link is always rendered as the last item of social-links
-#     list. Set below key to `true` to not have the link to feed rendered as
-#     part of social-links list.
-   hide_site_feed_link: true

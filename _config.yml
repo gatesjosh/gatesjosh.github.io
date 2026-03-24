@@ -1,3 +1,10 @@
+title: JG | Online
+author:
+  name: JG
+
+description: >
+  My personal website after many years without one.
+
 # Disable the standard theme
 # theme: minima 
 
@@ -5,13 +12,17 @@
 remote_theme: "jekyll/minima"
 
 minima:
+  # Minima skin selection. Available skins are:
+  #   Available skins:
+  #     * classic            Default, light color scheme.
+  #     * dark               Dark variant of the classic skin.
+  #     * auto               Adaptive skin based on the default classic and dark skins.
+  #     * solarized-light    Light variant of solarized color scheme.
+  #     * solarized-dark     Dark variant of solarized color scheme.
+  #     * solarized          Adaptive skin for solarized color scheme skins.
   skin: solarized
-  nav_pages:
-    - about.md
-    - portfolio.md
 
 # Required for remote themes to work on GitHub Pages
 plugins:
   - jekyll-remote-theme
-  - jekyll-feed
   - jekyll-seo-tag

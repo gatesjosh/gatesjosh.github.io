@@ -22,6 +22,16 @@ minima:
   #     * solarized          Adaptive skin for solarized color scheme skins.
   skin: solarized
 
+  # Specific pages for site navigation.
+  #   If you wish to link only specific pages in the site-navigation, use this and list
+  #   the `path` property (as represented via Liquid) of the pages in the order they
+  #   should be rendered.
+  nav_pages:
+    - about.md
+
+  # Set to `true` to show excerpts on the homepage.
+  show_excerpts: true
+
 # Required for remote themes to work on GitHub Pages
 plugins:
   - jekyll-remote-theme

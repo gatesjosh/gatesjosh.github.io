@@ -1,6 +1,6 @@
-title: Your awesome title
+title:JG
 author:
-  name: GitHub User
+  name: JG
   email: your-email@domain.com
 
 description: >
@@ -16,10 +16,6 @@ remote_theme: "jekyll/minima"
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
-
-sass:
-  quiet_deps: true
-  silence_deprecations: [import]
 
 minima:
   # Minima skin selection. Available skins are:
@@ -56,4 +52,6 @@ minima:
   social_links:
     - title: JG on LinkedIn
       icon: linkedin
+
+  hide_site_feed_link: true
       url: "https://www.linkedin.com/company/github"

@@ -46,5 +46,3 @@ minima:
     - title: JG on LinkedIn
       icon: linkedin
       url: "https://www.linkedin.com/company/github"
-
-  hide_site_feed_link: true
